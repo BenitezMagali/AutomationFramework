@@ -1,0 +1,20 @@
+{
+  "name": "selenium-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:test/report/cucumber_report.json"
+  },
+  "author": "Magalí",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chromedriver": "^92.0.1",
+    "cucumber": "^6.0.5",
+    "selenium-webdriver": "^4.0.0-beta.4"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.5.0"
+  }
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "description": "    Hacemos pruebas sobre el login",
+    "keyword": "Feature",
+    "name": "Pruebas sobre el login",
+    "line": 1,
+    "id": "pruebas-sobre-el-login",
+    "tags": [],
+    "uri": "features\\tests\\login.feature",
+    "elements": [
+      {
+        "id": "pruebas-sobre-el-login;abriendo-linkedin",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Abriendo LinkedIn",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Abro el navegador en la pagina principal",
+            "match": {
+              "location": "features\\steps\\login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Busco personas",
+            "match": {
+              "location": "features\\steps\\login.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verifico que el nombre y apellido sea correcto",
+            "match": {
+              "location": "features\\steps\\login.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3114000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-sobre-el-login;no-se-pudo-abrir-la-página",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "No se pudo abrir la página",
+        "tags": [],
+        "type": "scenario",
+        "steps": []
+      }
+    ]
+  }
+]
